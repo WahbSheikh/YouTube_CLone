@@ -1,0 +1,494 @@
+.header {
+  padding: 0px 16px;
+  margin: 2px;
+}
+.header,
+.search-bar-and-icon,
+.mic-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  background-color: rgba(15, 15, 15, 255);
+}
+.left-side {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu {
+  width: 24px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+.menu:hover {
+  background-color: rgba(63, 63, 63);
+  border-radius: 50px;
+}
+.yt-logo {
+  width: 140px;
+  height: 35px;
+  padding: 10px 14px 14px 16px;
+  cursor: pointer;
+}
+.middle-side {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-bottom: 10px;
+  max-width: 700px;
+  min-width: 300px;
+  align-items: center;
+}
+.right-side {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.extra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+}
+.profile {
+  width: 20px;
+  border-radius: 50px;
+  padding: 1px 6px;
+  cursor: pointer;
+}
+.create {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: rgba(15, 15, 15, 255);
+  background-color: transparent;
+  cursor: pointer;
+}
+.create:hover {
+  background-color: rgba(63, 63, 63);
+}
+.creat-icon {
+  width: 24px;
+  filter: invert();
+}
+.notif {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 50px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgba(15, 15, 15, 255);
+  cursor: pointer;
+}
+.notif:hover,
+.mic-button:hover {
+  background-color: rgba(63, 63, 63);
+}
+.notif-img {
+  width: 24px;
+  filter: invert();
+}
+.notification-count {
+  width: 15px;
+  height: 15px;
+  background-color: #cc0000;
+  border-radius: 50px;
+  position: absolute;
+  color: white;
+  border: 0.1px solid #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  margin-left: 13px;
+  margin-top: -30px;
+  pointer-events: none;
+}
+.search-bar-and-icon {
+  margin-top: 7px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 30px;
+  width: 600px;
+}
+.search-bar {
+  flex: 1;
+  margin-right: 0px;
+  border-radius: 30px 0px 0px 30px;
+  outline: none;
+  border-color: rgba(63, 63, 63, 0.708);
+  border-width: 1px;
+  background-color: rgba(15, 15, 15, 255);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-style: solid;
+  padding: 0 7px 0 15px;
+  line-height: 24px;
+  height: 40px;
+}
+.search-bar::placeholder {
+  color: gray;
+}
+
+.search-button {
+  width: 64px;
+  margin-left: 0px;
+  border-radius: 0px 30px 30px 0px;
+  outline: none;
+  border-style: solid;
+  border-color: rgb(63, 63, 63, 0.708);
+  border-width: 1px;
+  padding-right: 12px;
+  background-color: rgba(34, 34, 34, 255);
+  height: 40px;
+}
+.search-button:hover {
+  background-color: rgba(63, 63, 63);
+}
+.search-img {
+  width: 26px;
+  padding-top: 3px;
+  padding-left: 5px;
+  filter: invert();
+}
+
+.mic-icon {
+  width: 39px;
+  height: 39px;
+  margin-top: 5px;
+  margin-left: 15px;
+  border-radius: 50px 50px 50px 50px;
+  align-items: center;
+}
+
+.mic-button {
+  width: 39px;
+  height: 39px;
+  border-radius: 50px 50px 50px 50px;
+  border-color: rgba(34, 34, 34, 255);
+  background-color: rgba(34, 34, 34, 255);
+  border-style: solid;
+  align-items: center;
+}
+
+.mic {
+  width: 24px;
+  padding-top: 1.5px;
+  padding-bottom: 1px;
+  filter: invert();
+}
+
+.menu-and-video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(15, 15, 15, 255);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0px 16px 0px 4px;
+  margin: 0px;
+}
+.Menu {
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px 14px;
+}
+.menu-icon {
+  width: 20px;
+  filter: invert();
+}
+.menu-text {
+  font-size: 10px;
+}
+.menu-item:hover {
+  background-color: rgba(63, 63, 63);
+  border-radius: 10px;
+}
+.vertical {
+  flex: 1;
+  padding: 0px 16px;
+}
+.top_search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin: 10x;
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n {
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  background-color: rgba(34, 34, 34, 255);
+  border: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 540;
+  line-height: 15px;
+  border-radius: 8px;
+  margin: 4px;
+}
+.a {
+  color: #000000;
+  background-color: white;
+  margin-left: 15px;
+}
+.n {
+  margin-right: 0px;
+}
+.o {
+  padding: 15px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+  color: white;
+  font-size: 14px;
+  font-weight: 540;
+  line-height: 10px;
+  border-radius: 90px;
+  border: transparent;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.b:hover,
+.c:hover,
+.d:hover,
+.e:hover,
+.f:hover,
+.g:hover,
+.h:hover,
+.i:hover,
+.j:hover,
+.k:hover,
+.l:hover,
+.m:hover,
+.n:hover {
+  background-color: rgba(63, 63, 63);
+}
+
+.o:hover {
+  background-color: rgba(34, 34, 34, 255);
+}
+
+/* Tooltip CSS for buttons */
+.mic-button,
+.search-button,
+.create,
+.notif,
+.menu-item {
+  position: relative;
+  outline: none;
+  cursor: pointer;
+}
+
+.mic-button::after,
+.search-button::after,
+.create::after,
+.notif::after {
+  content: attr(data-hover); /* Get the text from the data-hover attribute */
+  position: absolute;
+  bottom: -30px; /* Position it below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(
+    109,
+    109,
+    109
+  ); /* Background color for the hover text */
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap; /* Prevent text from wrapping */
+  opacity: 0;
+  pointer-events: none; /* Prevent hover text from blocking button clicks */
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+  z-index: 10;
+}
+.menu-item::after {
+  content: attr(data-hover); /* Get the text from the data-hover attribute */
+  position: absolute;
+  bottom: -30px; /* Position it below the button */
+  left: 90%;
+  transform: translateX(30px);
+  transform: translateY(-40px);
+  background-color: rgba(
+    15,
+    15,
+    15,
+    255
+  ); /* Background color for the hover text */
+  color: white;
+  padding: 0px 5px 0px 5px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: "Roboto", Arial;
+  font-weight: 400;
+  white-space: nowrap; /* Prevent text from wrapping */
+  border-style: inset;
+  opacity: 0;
+  pointer-events: none; /* Prevent hover text from blocking button clicks */
+  transition: opacity 0.3s ease, bottom 0.3s ease;
+  z-index: 10;
+}
+.menu-item:hover::after {
+  opacity: 0.9;
+  bottom: -40px;
+}
+
+.mic-button:hover::after,
+.search-button:hover::after,
+.create:hover::after,
+.notif:hover::after {
+  opacity: 1; /* Show text on hover */
+  bottom: -40px; /* Slight movement for a smooth effect */
+}
+
+.mic-button:hover,
+.search-button:hover,
+.create:hover,
+.notif:hover,
+.menu-item:hover {
+  background-color: rgba(
+    63,
+    63,
+    63
+  ); /* Add hover background effect if desired */
+}
+
+/* Responsive media queries */
+@media (max-width: 670px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    min-width: 600px;
+  }
+
+  .left-side,
+  .right-side,
+  .middle-side {
+    flex: 1;
+  }
+  .middle-side {
+    justify-content: flex-end;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .search-bar-and-icon {
+    justify-content: center;
+    width: auto;
+  }
+
+  .search-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    padding: 1px;
+    margin: 7px 0px 0px 0px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .search-img {
+    width: 26px;
+    padding-top: 1px;
+    padding-left: 2px;
+    filter: invert();
+  }
+
+  .mic-icon {
+    width: 35px;
+    height: 35px;
+    padding-top: 3px;
+    padding-left: 5px;
+    margin: 7px;
+  }
+
+  .mic-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    padding: 1px;
+    margin: 1px;
+    margin: 7px 0px 0px 0px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .mic {
+    width: 24px;
+    padding-top: 1.5px;
+    padding-bottom: 1px;
+    filter: invert();
+  }
+  .Menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1520px) {
+  .top_search {
+    display: none;
+  }
+  .a,
+  .b,
+  .c,
+  .d,
+  .e,
+  .f,
+  .g,
+  .h,
+  .i,
+  .j,
+  .k,
+  .l,
+  .m,
+  .n,
+  .o {
+    display: none;
+  }
+}

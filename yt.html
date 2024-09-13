@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-side">
+        <img src="thumbnails/menu.png" class="menu" />
+        <img class="yt-logo" src="thumbnails/yotube-logo.png" />
+      </div>
+      <div class="middle-side">
+        <div class="search-bar-and-icon">
+          <input class="search-bar" type="search" placeholder="Search" />
+          <button class="search-button" data-hover="Search">
+            <img class="search-img" src="thumbnails/search.svg" />
+          </button>
+        </div>
+        <div class="mic-icon">
+          <button class="mic-button" data-hover="Search with your voice">
+            <img class="mic" src="thumbnails/voice-search-icon.svg" />
+          </button>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="extra">
+          <button class="create" data-hover="Create">
+            <img class="creat-icon" src="thumbnails/upload.svg" />
+          </button>
+          <button class="notif" data-hover="Notifications">
+            <img class="notif-img" src="thumbnails/notifications.svg" />
+            <div class="notification-count">3</div>
+          </button>
+          <img class="profile" src="thumbnails/profile.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-and-video">
+      <div class="Menu">
+        <div class="menu-item" data-hover="Home">
+          <img class="menu-icon" src="thumbnails/home.svg" />
+          <p class="menu-text">Home</p>
+        </div>
+        <div class="menu-item" data-hover="shorts">
+          <img
+            class="menu-icon"
+            src="thumbnails/youtube-shorts-logo-15251 (1).png"
+          />
+          <p class="menu-text">shorts</p>
+        </div>
+        <div class="menu-item" data-hover="Subscriptions">
+          <img class="menu-icon" src="thumbnails/subscriptions.svg" />
+          <p class="menu-text">Subscriptions</p>
+        </div>
+        <div class="menu-item" data-hover="you">
+          <img class="menu-icon" src="thumbnails/library.svg" />
+          <p class="menu-text">you</p>
+        </div>
+        <div class="menu-item" data-hover="downloads">
+          <img class="menu-icon" src="thumbnails/download-4165.png" />
+          <p class="menu-text">downloads</p>
+        </div>
+      </div>
+      <div class="vertical">
+        <div class="top-search">
+          <button class="a">All</button>
+          <button class="b">Dramedy</button>
+          <button class="c">Thrillers</button>
+          <button class="d">Manga</button>
+          <button class="e">Music</button>
+          <button class="f">Data Structures</button>
+          <button class="g">Sitcoms</button>
+          <button class="h">Mixes</button>
+          <button class="i">Nouman Ali Khan</button>
+          <button class="j">Software Engineering</button>
+          <button class="k">News</button>
+          <button class="l">Religious Recitation</button>
+          <button class="m">Live</button>
+          <button class="n">Skills</button>
+          <button class="o">&gt;</button>
+        </div>
+        <div class="video-grid">
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail1.webp" />
+                <video class="preview-video" muted loop>
+                  <source src="videos/video1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail1pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=NBmLFMN0fdw"
+                  ><p class="video-title">
+                    How I made a Pokedex for Real Life with AI / GPT4o
+                  </p></a
+                >
+                <p class="author">
+                  Adrian Twarog<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">228k views &#183; 2 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail2.webp" />
+                <video class="preview-video" muted>
+                  <source src="videos/video2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail2pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=G3e-cpL7ofc"
+                  ><p class="video-title">
+                    HTML & CSS Full Course-Beginner to Pro
+                  </p></a
+                >
+                <p class="author">
+                  SuperSimpleDev<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">11M views &#183; 2 years ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail3.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video3.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail3pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=mTuPHCyV6mw"
+                  ><p class="video-title">
+                    THE GLASSWORKER | Official Urdu Trailer
+                  </p></a
+                >
+                <p class="author">
+                  Mano Aniamtion Studios<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">394K views &#183; 1 month ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail4.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video4.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail4pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=wIuVvCuiJhU"
+                  ><p class="video-title">
+                    World's shortest UI/UX design course
+                  </p></a
+                >
+                <p class="author">
+                  Juxtopposed<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">1.2M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail5.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video5.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail5pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=mEsleV16qdo"
+                  ><p class="video-title">
+                    Generative AI Full Course-Gemini Pro, OpenAI, LIama,
+                    Langchain,Pincone...
+                  </p></a
+                >
+                <p class="author">
+                  freeCodeCamp.org<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">1M views &#183; 5 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail6.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video6.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail6pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=j7VZsCCnptM"
+                  ><p class="video-title">
+                    Selenium Course for Beginners-Web Scraping Bots, Browser
+                    Automation
+                  </p></a
+                >
+                <p class="author">
+                  freeCodeCamp.org<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">819K views &#183; 2 years ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail7.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video7.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail7pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=UNdTLfDNsI4"
+                  ><p class="video-title">
+                    I made Games with Python for 10 Years...
+                  </p></a
+                >
+                <p class="author">
+                  DaFluffyPotato<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">317K views &#183; 8 months ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail8.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video8.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail8pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=e3fz3dqhN44"
+                  ><p class="video-title">
+                    Quantum Computers, explained with MKBHD
+                  </p></a
+                >
+                <p class="author">
+                  Cleo Abram<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">8M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="preview">
+            <div class="thumbnail-row">
+              <div class="video-container">
+                <img class="thumbnail" src="thumbnails/thumbnail9.webp" />
+                <video class="preview-video" muted loop>
+                    <source src="videos/video9.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-img">
+                <img class="channel-prof" src="thumbnails/thumbnail9pf.jpg" />
+              </div>
+              <div class="video-info">
+                <a
+                  class="links"
+                  href="https://www.youtube.com/watch?v=Lp6HmHSow2c"
+                  ><p class="video-title">
+                    Designing HTML Web Page (Practical)
+                  </p></a
+                >
+                <p class="author">
+                  LearnCity<img
+                    class="checkmark"
+                    src="thumbnails/youtube chechmark.png"
+                  />
+                </p>
+                <p class="views">1.3K views &#183; 2 weeks ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        document.querySelectorAll('.video-container').forEach(container => {
+          const video = container.querySelector('.preview-video');
+          
+          container.addEventListener('mouseenter', () => {
+            video.play();
+          });
+      
+          container.addEventListener('mouseleave', () => {
+            video.pause();
+            video.currentTime = 0; // Reset the video to the beginning
+          });
+        });
+      </script>      
+  </body>
+</html>
