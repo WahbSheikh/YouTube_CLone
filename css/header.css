@@ -309,7 +309,7 @@
   background-color: rgba(34, 34, 34, 255);
 }
 
-/* Tooltip CSS for buttons */
+
 .mic-button,
 .search-button,
 .create,
@@ -324,30 +324,30 @@
 .search-button::after,
 .create::after,
 .notif::after {
-  content: attr(data-hover); /* Get the text from the data-hover attribute */
+  content: attr(data-hover); 
   position: absolute;
-  bottom: -30px; /* Position it below the button */
+  bottom: -30px; 
   left: 50%;
   transform: translateX(-50%);
   background-color: rgb(
     109,
     109,
     109
-  ); /* Background color for the hover text */
+  ); 
   color: white;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 12px;
-  white-space: nowrap; /* Prevent text from wrapping */
+  white-space: nowrap; 
   opacity: 0;
-  pointer-events: none; /* Prevent hover text from blocking button clicks */
+  pointer-events: none; 
   transition: opacity 0.3s ease, bottom 0.3s ease;
   z-index: 10;
 }
 .menu-item::after {
-  content: attr(data-hover); /* Get the text from the data-hover attribute */
+  content: attr(data-hover); 
   position: absolute;
-  bottom: -30px; /* Position it below the button */
+  bottom: -30px; 
   left: 90%;
   transform: translateX(30px);
   transform: translateY(-40px);
@@ -356,17 +356,17 @@
     15,
     15,
     255
-  ); /* Background color for the hover text */
+  ); 
   color: white;
   padding: 0px 5px 0px 5px;
   margin: 0px;
   font-size: 12px;
   font-family: "Roboto", Arial;
   font-weight: 400;
-  white-space: nowrap; /* Prevent text from wrapping */
+  white-space: nowrap; 
   border-style: inset;
   opacity: 0;
-  pointer-events: none; /* Prevent hover text from blocking button clicks */
+  pointer-events: none; 
   transition: opacity 0.3s ease, bottom 0.3s ease;
   z-index: 10;
 }
@@ -379,8 +379,8 @@
 .search-button:hover::after,
 .create:hover::after,
 .notif:hover::after {
-  opacity: 1; /* Show text on hover */
-  bottom: -40px; /* Slight movement for a smooth effect */
+  opacity: 1; 
+  bottom: -40px; 
 }
 
 .mic-button:hover,
@@ -392,10 +392,9 @@
     63,
     63,
     63
-  ); /* Add hover background effect if desired */
+  ); 
 }
 
-/* Responsive media queries */
 @media (max-width: 670px) {
   .header {
     display: flex;
